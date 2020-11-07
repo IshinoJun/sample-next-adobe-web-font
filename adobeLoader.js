@@ -1,4 +1,4 @@
-const adobe = (d) => {
+const adobeLoader = (d) => {
   var config = {
       kitId: process.env.NEXT_PUBLIC_KID_ID,
       scriptTimeout: 3000,
@@ -27,4 +27,4 @@ const adobe = (d) => {
   s.parentNode.insertBefore(tk, s);
 };
 
-export default adobe;
+export default adobeLoader;
