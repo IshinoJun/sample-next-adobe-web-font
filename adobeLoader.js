@@ -1,5 +1,5 @@
 const adobeLoader = (d) => {
-  var config = {
+  const config = {
       kitId: process.env.NEXT_PUBLIC_KID_ID,
       scriptTimeout: 3000,
       async: true,
